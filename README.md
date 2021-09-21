@@ -23,11 +23,29 @@ pod 'ColorsetCreator'
 
 ## Usage
 
+```
+let colorsTest = [
+            Color(name: "Color1", nsColor: NSColor.red),
+            Color(name: "Color2", nsColor: NSColor.black),
+            Color(name: "Color3", nsColor: NSColor(deviceRed: 50/255, green: 168/255, blue: 82/255, alpha: 1.0)),
+            Color(name: "Color4", nsColor: NSColor.green),
+        ]
+        
+let destinationFolderURL = ...
+do {
+	try ColorsetCreator.generateXCAsset(fromColorsWithNames: colorsTest,
+                                                inFolder: destinationFolderURL,
+                                                assetName: "ColorsetCreatorTest",
+                                                force: true)
+} catch {
+	print("Error: \(error)")
+}
+```
 
 
 ## Author
 
-Federico Cappelli
+Federico Cappelli (info@federicocappelli.net)
 
 ## License
 
