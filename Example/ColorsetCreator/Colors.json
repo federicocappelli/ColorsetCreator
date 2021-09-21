@@ -1,0 +1,21 @@
+ [{
+         "name": "Colour1",
+         "description": "Colour 1 description",
+         "light": {
+             "rgba": [33,33,33,1]
+         },
+         "dark": {
+             "rgba": [0,0,0,1]
+         }
+     },
+     {
+         "name": "Colour2",
+         "description": "Colour 2 description",
+         "light": {
+             "hex": ["#fcba03",1]
+         },
+         "dark": {
+             "hex": ["#826000",1]
+         }
+     }
+ ]

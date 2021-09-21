@@ -1,0 +1,16 @@
+PODS:
+  - ColorsetCreator (0.1.0)
+
+DEPENDENCIES:
+  - ColorsetCreator (from `../`)
+
+EXTERNAL SOURCES:
+  ColorsetCreator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorsetCreator: b02f479b5dc990aff56c5c74171ddebd5570278a
+
+PODFILE CHECKSUM: 40d22ba2deec700f06f32375085eac284add3028
+
+COCOAPODS: 1.10.0

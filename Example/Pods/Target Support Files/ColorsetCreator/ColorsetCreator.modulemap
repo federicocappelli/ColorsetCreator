@@ -1,0 +1,6 @@
+framework module ColorsetCreator {
+  umbrella header "ColorsetCreator-umbrella.h"
+
+  export *
+  module * { export * }
+}

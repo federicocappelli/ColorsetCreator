@@ -1,0 +1,23 @@
+{
+  "name": "ColorsetCreator",
+  "version": "0.1.0",
+  "summary": "Little utility for creating assets catalogs (.xcasset) from a code generated NSColor.",
+  "description": "Create your custom xcasset color asset from Colours generated in code",
+  "homepage": "https://github.com/federicocappelli/ColorsetCreator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Federico Cappelli": "info@federicocappelli.net"
+  },
+  "source": {
+    "git": "https://github.com/federicocappelli/ColorsetCreator.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/@federicokappe",
+  "platforms": {
+    "osx": "10.12"
+  },
+  "source_files": "ColorsetCreator/Classes/**/*"
+}

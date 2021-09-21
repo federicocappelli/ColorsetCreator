@@ -1,0 +1,6 @@
+framework module Pods_ColorsetCreator_Tests {
+  umbrella header "Pods-ColorsetCreator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
